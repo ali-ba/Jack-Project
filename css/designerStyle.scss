@@ -1,0 +1,199 @@
+
+.designerInformation {
+	
+	
+	background-color:#f05373;
+
+	.backIcon{
+		margin-top:10px;
+		margin-left:10px;
+	}
+
+	.block1{
+			
+		margin-left:50px;
+		margin-right:50px;
+		
+
+		.designerPhoto{
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.nameAndDescription{
+			color:white;
+			display: flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+
+			text-align: center;
+			line-height: normal;
+
+
+			h1{
+				font-size:2em;
+			}
+			.description{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			}
+		}
+	}
+
+	.block2{
+		margin-left:50px;
+		margin-right:50px;
+		margin-bottom:50px;
+		display: flex;
+
+
+		.social{
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			.socialPic{
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+		}
+
+		.numberListIpad{
+			display: flex;
+			flex-direction:column;
+			color:white;
+
+			li{
+				display: flex;
+				padding-top: 3px;
+				padding-bottom: 3px;
+
+				p{
+					width: 150px;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+	}
+
+	.numberListIphone{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: white;
+		border-bottom: #eaeaea 0.3px solid;
+		
+		.back{
+			border-left: 0.5px lightgrey solid;
+		}
+		li{
+			height:50px;
+			display: flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			p{
+				margin-top: 2px;
+				margin-bottom: 2px;
+			}
+		}
+	}
+
+}
+.portfolio{
+	
+	height:3000px;
+	
+
+	.portfolioTitle{
+		font-size: 2em;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+///laptop version
+
+// PORTRAIT TABLET IPAD SIZE
+// @media only screen 
+//   and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+//   and (orientation: portrait) {
+
+// 	body{
+// 		border: 10px black solid;
+// 	}
+// 	.designerInformation .block2 .numberListIpad{
+// 		display: flex;
+// 	}
+	
+
+// }// END PORTRAIT TABLET IPAD SIZE
+
+@media only screen 
+and (min-width : 768px)  {
+.designerInformation .numberListIphone{
+	display: none;
+}
+
+}
+
+@media only screen 
+and (max-width : 768px)  {
+
+	.designerInformation .block2 .numberListIpad{
+		display: none;
+	}
+
+}
+
+@media only screen 
+and (min-width : 768px)  {
+	.designerInformation .block1 .nameAndDescription{
+		align-items:flex-start;
+	}	
+	.designerInformation .block1 .nameAndDescription{
+		text-align: left;
+	}
+}
+
+
+@media only screen 
+and (min-width : 1024px)  {
+
+	.designerInformation .block1 .nameAndDescription{
+		align-items:center;
+		text-align: center;
+	}	
+
+	.designerInformation .block2 .numberListIpad{
+		align-items:center;
+	}
+
+	.designerInformation .block2 .social{
+		 order: 1; 
+		 margin-top: 50px;
+	}
+	.designerInformation{
+		position: fixed;
+		height:100vh;
+	}
+	.portfolio{
+		position: absolute;
+		right:0;
+		margin-right: 10px;
+	}
+
+}
