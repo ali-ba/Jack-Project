@@ -1,16 +1,16 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\000031}}
 .backcolor {
   position: relative;
   background-color: #f05373; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\000034}}
   .backcolor .backIcon {
     margin-top: 10px;
     margin-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\000039}}
   .backcolor .block1 {
     margin-left: 50px;
     margin-right: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000314}}
     .backcolor .block1 .designerPhoto {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -23,7 +23,7 @@
               align-items: center;
       padding-top: 20px;
       padding-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000321}}
     .backcolor .block1 .nameAndDescription {
       color: white;
       display: -webkit-box;
@@ -42,14 +42,14 @@
       margin-left: 0;
       text-align: center;
       line-height: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000333}}
       .backcolor .block1 .nameAndDescription h1 {
         font-size: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000336}}
       .backcolor .block1 .nameAndDescription .description {
         padding-top: 20px;
         padding-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000343}}
   .backcolor .social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -61,11 +61,11 @@
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000350}}
     .backcolor .social .socialPic {
       margin-left: 5px;
       margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000356}}
   .backcolor .numberListIpad {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,29 +75,38 @@
         -ms-flex-direction: column;
             flex-direction: column;
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000361}}
     .backcolor .numberListIpad li {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       padding-top: 3px;
       padding-bottom: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000366}}
       .backcolor .numberListIpad li p {
         width: 150px;
         padding-left: 20px;
         padding-right: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000375}}
 .numberListIphone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
   border-bottom: #eaeaea 0.3px solid; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000384}}
   .numberListIphone .back {
     border-left: 0.5px lightgrey solid; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000387}}
   .numberListIphone .firstone, .numberListIphone .middle, .numberListIphone .lastone {
     width: 200px;
     height: 50px;
@@ -114,61 +123,62 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\0000394}}
     .numberListIphone .firstone p, .numberListIphone .middle p, .numberListIphone .lastone p {
       margin-top: 2px;
       margin-bottom: 2px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003102}}
 .portfolio {
   height: 3000px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003107}}
   .portfolio .portfolioTitle {
     font-size: 2em;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003121}}
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 @media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003151}}
   .designerInformation .backcolor .block1 .nameAndDescription {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003154}}
   .designerInformation .backcolor .block1 .nameAndDescription {
     text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003157}}
   .designerInformation .backcolor .block1 .designerPhoto {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003160}}
   .designerInformation .backcolor .block1 .right .social {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     margin-left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003164}}
   .numberListIphone .firstone {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
     padding-right: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003168}}
     .numberListIphone .firstone .firstOneGap {
       margin-right: 7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/200834240\/Desktop\/groupWork\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003173}}
   .numberListIphone .lastone {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    padding-left: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/Jack-Project\/css\/designerStyle\.scss}line{font-family:\00003177}}
-    .numberListIphone .lastone .lastOneGap {
-      margin-left: 20px; } }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }

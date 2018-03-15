@@ -1,9 +1,4 @@
-
-
-	
-	
-	
-	.backcolor{
+.backcolor{
 		position: relative;
 		background-color:#f05373;
 	.backIcon{
@@ -43,7 +38,7 @@
 			padding-bottom: 20px;
 			}
 		}
-	}
+}
 
 	.social{
 
@@ -77,8 +72,10 @@
 		}
 	}
 	
-
 	.numberListIphone{
+		display:flex;
+		justify-content:center;
+		align-items:center;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		background-color: white;
@@ -121,7 +118,10 @@
 
 
 
-
+.row{
+	margin-right:0;
+	margin-left:0;
+}
 
 
 ///laptop version
@@ -171,12 +171,10 @@ and (min-width : 768px)  {
 
 	}
 	.numberListIphone .lastone{
-		align-items:flex-start;
-		padding-left: 60px;
+		align-items:center;
+		
 
-		.lastOneGap{
-			margin-left: 20px;
-		}
+		
 
 	}
 
