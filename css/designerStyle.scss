@@ -1,16 +1,17 @@
 
-.designerInformation {
-	
-	
-	background-color:#f05373;
 
+	
+	
+	
+	.backcolor{
+		position: relative;
+		background-color:#f05373;
 	.backIcon{
 		margin-top:10px;
 		margin-left:10px;
 	}
 
 	.block1{
-			
 		margin-left:50px;
 		margin-right:50px;
 		
@@ -28,6 +29,7 @@
 			flex-direction:column;
 			justify-content:center;
 			align-items:center;
+			margin-left:0;
 
 			text-align: center;
 			line-height: normal;
@@ -43,17 +45,13 @@
 		}
 	}
 
-	.block2{
-		margin-left:50px;
-		margin-right:50px;
-		margin-bottom:50px;
+	.social{
+
 		display: flex;
-
-
-		.social{
-			display: flex;
-			justify-content:center;
-			align-items:center;
+		justify-content:center;
+		align-items:center;
+		padding-bottom: 30px;
+		
 			.socialPic{
 				margin-left: 5px;
 				margin-right: 5px;
@@ -78,6 +76,7 @@
 			}
 		}
 	}
+	
 
 	.numberListIphone{
 		padding-top: 10px;
@@ -88,7 +87,8 @@
 		.back{
 			border-left: 0.5px lightgrey solid;
 		}
-		li{
+		.firstone,.middle,.lastone {
+			width: 200px;
 			height:50px;
 			display: flex;
 			flex-direction:column;
@@ -101,7 +101,7 @@
 		}
 	}
 
-}
+
 .portfolio{
 	
 	height:3000px;
@@ -142,58 +142,46 @@
 
 // }// END PORTRAIT TABLET IPAD SIZE
 
-@media only screen 
-and (min-width : 768px)  {
-.designerInformation .numberListIphone{
-	display: none;
-}
 
-}
 
-@media only screen 
-and (max-width : 768px)  {
 
-	.designerInformation .block2 .numberListIpad{
-		display: none;
-	}
-
-}
 
 @media only screen 
 and (min-width : 768px)  {
-	.designerInformation .block1 .nameAndDescription{
+	.designerInformation .backcolor .block1 .nameAndDescription{
 		align-items:flex-start;
 	}	
-	.designerInformation .block1 .nameAndDescription{
+	.designerInformation .backcolor .block1 .nameAndDescription{
 		text-align: left;
 	}
+	.designerInformation .backcolor .block1 .designerPhoto{
+		justify-content: flex-end;
+	}
+	.designerInformation .backcolor .block1 .right .social{
+		justify-content:flex-start;
+		margin-left: 10px;
+	}
+	.numberListIphone .firstone{
+		align-items:flex-end;
+		padding-right: 60px;
+
+		.firstOneGap{
+			margin-right: 7px;
+		}
+
+	}
+	.numberListIphone .lastone{
+		align-items:flex-start;
+		padding-left: 60px;
+
+		.lastOneGap{
+			margin-left: 20px;
+		}
+
+	}
+
+
 }
 
 
-@media only screen 
-and (min-width : 1024px)  {
 
-	.designerInformation .block1 .nameAndDescription{
-		align-items:center;
-		text-align: center;
-	}	
-
-	.designerInformation .block2 .numberListIpad{
-		align-items:center;
-	}
-
-	.designerInformation .block2 .social{
-		 order: 1; 
-		 margin-top: 50px;
-	}
-	.designerInformation{
-		position: fixed;
-		height:100vh;
-	}
-	.portfolio{
-		position: absolute;
-		right:0;
-		margin-right: 10px;
-	}
-
-}
