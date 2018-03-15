@@ -29,7 +29,7 @@ $(function(){
 
 
 				var firstName = res.user.first_name;
-				$('<h1>' + firstName +'</h1>').appendTo('.name');	
+				$('<h1>' + firstName +'</h1>').appendTo('.designerName');	
 
 				var about = res.user.sections["About Me"];
 				$('<p class"description">' + about +'</p>').appendTo('.description');			
