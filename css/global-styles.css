@@ -1,0 +1,11 @@
+h2.white,
+p.white,
+span.white {
+	color: white;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bold {
+	font-weight: 600;
+}
