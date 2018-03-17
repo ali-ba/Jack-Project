@@ -1,0 +1,81 @@
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/*---------- COLOURS ----------*/
+
+$lightblue: #00BBD2;
+$greyblue: #7F9CB7;
+$pink: #F05373;
+$red: #BF012C;
+
+/*These colours haven't been used in UX Pin but are in the colour palette*/
+$whiteblue: #E3EDF6;
+$grey: #494949;
+$darkblue: #00A8BC;
+
+.pinkBG {
+	background-color: $pink;
+}
+
+.lightblueBG {
+	background-color: $lightblue;
+}
+
+.whiteBG {
+	background-color: white;
+}
+
+/*--------- FONTS ---------*/
+
+h1,
+.h1,
+a.h1 {
+	font-weight: 800;
+	font-size: 80px;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+p.white,
+span.white,
+li.white {
+	color: white;
+}
+
+p.bold,
+span.bold {
+	font-weight: 600;
+}
+
+p.light,
+span.light {
+	font-weight: 300;
+}
+
+p.small {
+	font-size: 12px;
+}
+
+a.activeLink {
+	color: $lightblue !important;
+}
+
+/*---------- AVATAR/PROFILE PICTURE ----------*/
+
+img.avatar,
+.avatar {
+	border-radius: 50%;
+}

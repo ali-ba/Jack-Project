@@ -1,10 +1,11 @@
-body{
+/*body{
     font-family:Lato;
 }
 h1,h2,h3,h4,h5,h6{
     font-family:Catamaran;
     font-weight:800!important;
-}
+}*/
+
 .btn-xl{
     text-transform:uppercase;
     padding:1.5rem 3rem;
@@ -34,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar-custom .navbar-nav .nav-item .nav-link{
     text-transform:uppercase;
     font-size:.8rem;
-    font-weight:700;
+    font-weight:300;
     letter-spacing:.1rem;
 }
 
@@ -80,7 +81,7 @@ li a{
 .names .name{
     width: 100%;
     text-align: center;
-    font-family: 'Rammetto One', cursive;
+    /*font-family: 'Rammetto One', cursive;*/
     font-size: 55px;
     margin-bottom: 20px;
 
@@ -94,7 +95,7 @@ li a{
 .nameLink:hover{
     color: #00a8bc !important;
     text-decoration: none !important;
-    font-size: 65px;
+    font-size: 95px;
 }
 
 .opacity {
@@ -141,3 +142,8 @@ li a{
 .slidenav{
     color: black;
 }
+
+.zoom{
+    width: 100%;
+    border-radius: 0;
+    }
