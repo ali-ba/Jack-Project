@@ -1,8 +1,9 @@
 $(function(){
 	
 	// REPLACE THIS !!
-	var key = 'TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS';	// Your unique key - https://www.behance.net/dev
-	var behanceUser = 'taranvladyslav'; 				// example - Manuel from Yoobee Creative Catchup #3
+	var key = 'n3lHzKnkKGfwQPsJrPaGzjPJpUYZpWQ9';	// Your unique key - https://www.behance.net/dev
+	//TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS
+	var behanceUser = 'bingcat'; 				// example - Manuel from Yoobee Creative Catchup #3
 
 // ================================== HOME PAGE TEMPLATE ====================================================================
 
@@ -87,8 +88,21 @@ $(function(){
 
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
-					$('<div class="col-12  col-md-6 col-xl-4">' + '<img class="zoom" src="' + project.covers.original + '"></div>').appendTo('.portfolioPics');
+					$( '<div class="col-12  col-md-6 col-xl-4 grid">'+
+						'<figure class="effect-goliath">'+
+						'<img class="zoom" src="' + project.covers.original +'">'+
+						'<figcaption>'+
+						'<h2>Thoughtful <span>Goliath</span></h2>'+
+						'<p>When Goliath comes out, you should run.</p>'+
+						//'<a href="#">View more</a>'+
+						'</figcaption>'+
+						'</figure>'+
+						'</div>').appendTo('.portfolioPics');
 				});
+
+				
+			
+
 				console.log(res)
 },
 			// if the ajax request fails do these things as a fallback
@@ -97,7 +111,7 @@ $(function(){
 			}
 
 		}); // END ajax request
-
+		
 	} // END HOMEPAGE template
 
 });
