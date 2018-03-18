@@ -2,7 +2,7 @@ $(function(){
 	
 	// REPLACE THIS !!
 	var key = 'TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS';	// Your unique key - https://www.behance.net/dev
-	var behanceUser = 'taranvladyslav'; 				// example - Manuel from Yoobee Creative Catchup #3
+	var behanceUser = 'BingCat'; 				// example - Manuel from Yoobee Creative Catchup #3
 
 // ================================== HOME PAGE TEMPLATE ====================================================================
 
@@ -87,7 +87,7 @@ $(function(){
 
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
-					$('<div class="col">' + '<img class="zoom" src="' + project.covers.original + '"></div>').appendTo('.portfolioPics');
+					$('<div class="col-12  col-md-6 col-xl-4">' + '<img class="zoom" src="' + project.covers.original + '"></div>').appendTo('.portfolioPics');
 				});
 				console.log(res)
 },
