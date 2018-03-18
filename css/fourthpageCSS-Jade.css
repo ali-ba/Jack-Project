@@ -1,0 +1,76 @@
+/*-- Jade's code :) --*/
+nav {
+  height: 55px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #cccccc; }
+
+/*---------- LAYOUT----------*/
+.page-container {
+  height: 100vh; }
+
+.project-titlebox {
+  padding: 10px 20px;
+  border-bottom: 1px solid #cccccc; }
+  .project-titlebox h3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00BBD2; }
+  .project-titlebox p {
+    padding: 5px 0; }
+
+.project-basicdescription {
+  padding-top: 60px;
+  font: 16px/1.5 'Open Sans', sans-serif;
+  border-bottom: 1px solid #cccccc; }
+  .project-basicdescription p {
+    padding: 20px; }
+
+.project-comments {
+  border-bottom: 1px solid #cccccc; }
+  .project-comments .commenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px; }
+    .project-comments .commenter .commenter-boxleft {
+      width: 20%; }
+      .project-comments .commenter .commenter-boxleft img {
+        float: right;
+        padding-right: 10%; }
+    .project-comments .commenter .commenter-boxright {
+      width: 80%; }
+      .project-comments .commenter .commenter-boxright h4 {
+        float: left;
+        color: #F05373;
+        font-weight: 600;
+        font-size: 16px; }
+      .project-comments .commenter .commenter-boxright h5 {
+        float: left;
+        padding-left: 5px;
+        padding-top: 3px;
+        font-size: 12px; }
+      .project-comments .commenter .commenter-boxright p {
+        clear: both;
+        font: 16px/1.5 'Open Sans', sans-serif;
+        padding-top: 5px; }
+
+/*---------- MEDIA QUERIES ----------*/
+/* iPad Vertical*/
+@media only screen and (min-width: 768px) {
+  .project-basicdescription, .project-comments {
+    width: 75%;
+    margin: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; } }
+/* iPad Landscape*/
+@media only screen and (min-width: 1024px) {
+  .project-basicdescription, .project-comments {
+    width: 75%;
+    margin: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; } }
+
+/*# sourceMappingURL=fourthpageCSS-Jade.css.map */
