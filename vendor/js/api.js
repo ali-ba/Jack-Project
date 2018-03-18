@@ -2,7 +2,7 @@ $(function(){
 	
 	// REPLACE THIS !!
 	var key = 'TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS';	// Your unique key - https://www.behance.net/dev
-	var behanceUser = 'BingCat'; 				// example - Manuel from Yoobee Creative Catchup #3
+	var behanceUser = 'taranvladyslav'; 				// example - Manuel from Yoobee Creative Catchup #3
 
 // ================================== HOME PAGE TEMPLATE ====================================================================
 

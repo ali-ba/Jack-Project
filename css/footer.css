@@ -1,0 +1,74 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\000032}}
+footer {
+  background-color: #3fbcd6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\000036}}
+  footer .footerLeft {
+    padding-left: 20px;
+    padding-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\000039}}
+    footer .footerLeft .logoIcon {
+      margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000312}}
+    footer .footerLeft .whitefont {
+      color: white;
+      padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000317}}
+    footer .footerLeft .information p {
+      float: left;
+      padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000322}}
+    footer .footerLeft .footerSocialLink {
+      clear: both;
+      padding-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000325}}
+      footer .footerLeft .footerSocialLink .footerSocialLinkIcon {
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000331}}
+    footer .footerLeft .bluefont {
+      color: #a5dae5;
+      width: 300px;
+      font-size: 0.9em;
+      line-height: 15px;
+      padding-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000339}}
+  footer .footerRight {
+    background-color: #38a8c1;
+    padding-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000343}}
+    footer .footerRight .paddingBottom {
+      padding-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000347}}
+    footer .footerRight a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      color: white;
+      -webkit-transition: color 0.5s ease-out;
+      transition: color 0.5s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000354}}
+    footer .footerRight a:hover {
+      color: #a5dae5; }
+
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000366}}
+  .footerLeft .noShowMobeil {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000369}}
+  .footerLeft .footerSocialLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/level\%206\%20website\%20design\/svg\/group\%20work\/18\.3\.2018\/Jack-Project\/css\/footer\.scss}line{font-family:\0000376}}
+  .footerRight {
+    display: none; } }
