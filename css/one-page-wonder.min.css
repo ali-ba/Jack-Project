@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing:.1rem;
 }
 .bg-black{
-    background-color:#000!important
+    background-color:#000;
 }
 .rounded-pill{
     border-radius:5rem;
@@ -50,19 +50,15 @@ li a{
     width: 50px;
 }
 
-.title{
-	color: black !important;
-    margin-top: -15px;
-}
 
 .navbar-dark .navbar-brand{
-    color: black !important;
+    color: black ;
 }
 
 .navbar-dark .navbar-toggler{
-    color: rgba(0, 0, 0, 1) !important;
-    border-color: rgba(0, 0, 0, 1) !important;
-    float: right !important;
+    color: rgba(0, 0, 0, 1) ;
+    border-color: rgba(0, 0, 0, 1);
+    float: right;
 }
 
 .zoom{
@@ -92,9 +88,9 @@ li a{
 
 
 .nameLink:hover{
-    color: #00a8bc !important;
-    text-decoration: none !important;
-    font-size: 95px;
+    color: #00a8bc ;
+    text-decoration: none;
+    font-size: 75px;
 }
 
 .opacity {
