@@ -78,10 +78,10 @@
 .names-mobile{
     width: 100%;
     position: absolute;
-    top: 95px;
+    top: 63px;
     margin: 0;
     padding: 0;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 60px);
 }
 
 .name,
