@@ -1,9 +1,11 @@
 $(function(){
 	
-	// REPLACE THIS !!
-	var key = 'n3lHzKnkKGfwQPsJrPaGzjPJpUYZpWQ9';	// Your unique key - https://www.behance.net/dev
+	// Unique API key - get this from behance.net/dev
+	var key = 'n3lHzKnkKGfwQPsJrPaGzjPJpUYZpWQ9';	
 	//TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS
-	var behanceUser = 'bingcat'; 				// example - Manuel from Yoobee Creative Catchup #3
+	
+	// Behance username
+	var behanceUser = 'bingcat'; 				
 
 // ================================== HOME PAGE TEMPLATE ====================================================================
 
