@@ -1,1 +1,132 @@
-nav{height:55px;background-color:white;position:fixed;width:100%;z-index:999}.page-container{min-height:100vh}img.large-image{height:100vh;width:100%;object-fit:cover}.gradient{height:120px;background-color:black;position:absolute;bottom:0px;width:100%;background:linear-gradient(to bottom, transparent, #000)}h3.project-name{padding:10px}.project-creator{padding:0px 10px 10px 10px}.project-info{margin:20px 20px 0px 20px}img.avatar{border-radius:50%;vertical-align:middle;padding-right:2px}span.pagination{position:absolute;bottom:40px;right:40px}.page-container{height:100vh}.project-titlebox{padding:10px 20px;border-bottom:1px solid #cccccc}.project-titlebox h3{font-size:20px;font-family:'Open Sans', sans-serif;font-weight:600;color:#00BBD2}.project-titlebox p{padding:5px 0}.project-basicdescription{font:16px/1.5 'Open Sans', sans-serif;border-bottom:1px solid #cccccc}.project-basicdescription p{padding:20px}.project-comments{border-bottom:1px solid #cccccc}.project-comments .commenter{display:flex;flex-direction:row;justify-content:center;padding:20px}.project-comments .commenter .commenter-boxleft{width:20%}.project-comments .commenter .commenter-boxleft img{float:right;padding-right:10%}.project-comments .commenter .commenter-boxright{width:80%}.project-comments .commenter .commenter-boxright h4{float:left}.project-comments .commenter .commenter-boxright h5{float:left;padding-left:5px;padding-top:3px;font-size:12px}.project-comments .commenter .commenter-boxright p{clear:both;font:16px/1.5 'Open Sans', sans-serif;padding-top:5px}@media only screen and (min-width: 768px){.gradient{height:140px}.project-info{margin:20px 80px 0px 80px}span.pagination{bottom:50px;right:90px}.project-basicdescription,.project-comments{width:75%;margin:auto;border-left:1px solid #cccccc;border-right:1px solid #cccccc}}@media only screen and (min-width: 1024px){img.large-image{width:75%;display:block;margin:auto}.gradient{width:75%;position:absolute;left:50%;transform:translateX(-50%)}.project-basicdescription,.project-comments{width:75%;margin:auto;border-left:1px solid #cccccc;border-right:1px solid #cccccc}}
+/*-- Jennifer's code :) --*/
+nav {
+  height: 55px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
+
+/*---------- LAYOUT----------*/
+.page-container {
+  min-height: 100vh; }
+
+img.large-image {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover; }
+
+.gradient {
+  height: 120px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black); }
+
+/*---------- PROJECT DETAILS ----------*/
+h3.project-name {
+  padding: 10px; }
+
+.project-creator {
+  padding: 0px 10px 10px 10px; }
+
+.project-info {
+  margin: 20px 20px 0px 20px; }
+
+img.avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-right: 2px; }
+
+span.pagination {
+  position: absolute;
+  bottom: 40px;
+  right: 40px; }
+
+/*-- Jade's code :) --*
+
+/*---------- LAYOUT----------*/
+.page-container {
+  height: 100vh; }
+
+.project-titlebox {
+  padding: 10px 20px;
+  border-bottom: 1px solid #cccccc; }
+  .project-titlebox h3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00BBD2; }
+  .project-titlebox p {
+    padding: 5px 0; }
+
+.project-basicdescription {
+  font: 16px/1.5 'Open Sans', sans-serif;
+  border-bottom: 1px solid #cccccc; }
+  .project-basicdescription p {
+    padding: 20px; }
+
+.project-comments {
+  border-bottom: 1px solid #cccccc; }
+  .project-comments .commenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px; }
+    .project-comments .commenter .commenter-boxleft {
+      width: 20%; }
+      .project-comments .commenter .commenter-boxleft img {
+        float: right;
+        padding-right: 10%; }
+    .project-comments .commenter .commenter-boxright {
+      width: 80%; }
+      .project-comments .commenter .commenter-boxright h4 {
+        float: left; }
+      .project-comments .commenter .commenter-boxright h5 {
+        float: left;
+        padding-left: 5px;
+        padding-top: 3px;
+        font-size: 12px; }
+      .project-comments .commenter .commenter-boxright p {
+        clear: both;
+        font: 16px/1.5 'Open Sans', sans-serif;
+        padding-top: 5px; }
+
+/*---------- MEDIA QUERIES ----------*/
+/* iPad Vertical*/
+@media only screen and (min-width: 768px) {
+  .gradient {
+    height: 140px; }
+
+  .project-info {
+    margin: 20px 80px 0px 80px; }
+
+  span.pagination {
+    bottom: 50px;
+    right: 90px; }
+
+  .project-basicdescription, .project-comments {
+    width: 75%;
+    margin: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; } }
+/* iPad Landscape*/
+@media only screen and (min-width: 1024px) {
+  img.large-image {
+    width: 75%;
+    display: block;
+    margin: auto; }
+
+  .gradient {
+    width: 75%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  .project-basicdescription, .project-comments {
+    width: 75%;
+    margin: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; } }
+
+/*# sourceMappingURL=thirdpageCSS-Jen.css.map */

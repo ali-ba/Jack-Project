@@ -90,6 +90,28 @@ $(function(){
 
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
+					$('<div class="col-12  col-md-6 col-xl-4 grid">'+
+					'<figure class="effect-goliath">'+
+					'<img class="zoom" src="' + project.covers.original +'">'+
+					'<figcaption>'+
+					'<h2>'+project.name+'</h2>'+
+					'<div class="change">'+
+					'<div class="view"><i class="fas fa-eye icon"></i><p>'+project.stats.views+'</p></div>'+
+					'<div class="appreciations"><i class="fas fa-thumbs-up icon"></i><p>'+project.stats.appreciations+'</p></div>'+
+					'</div>'+
+					'<a href="#">View more</a>'+
+					'</figcaption>			'+
+					'</figure>'+
+					'</div>').appendTo('.portfolioPics');
+
+					//.projects["0"].name
+					//.projects[3].stats
+					//.projects[3].stats.appreciations
+					console.log(project.stats.views);
+					console.log(project.stats.appreciations);
+					console.log(project.name)
+
+					/*
 					$( '<div class="col-12  col-md-6 col-xl-4 grid">'+
 						'<figure class="effect-goliath">'+
 						'<img class="zoom" src="' + project.covers.original +'">'+
@@ -100,6 +122,7 @@ $(function(){
 						'</figcaption>'+
 						'</figure>'+
 						'</div>').appendTo('.portfolioPics');
+						*/
 				});
 
 				

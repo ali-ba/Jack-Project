@@ -1,1 +1,57 @@
-footer{background-color:#3fbcd6}footer .footerLeft{padding-left:20px;padding-bottom:50px}footer .footerLeft .logoIcon{margin-top:20px}footer .footerLeft .whitefont{color:white;padding-bottom:10px}footer .footerLeft .information p{float:left;padding-right:20px}footer .footerLeft .footerSocialLink{clear:both;padding-top:10px}footer .footerLeft .footerSocialLink .footerSocialLinkIcon{float:left;display:flex;justify-content:center;margin-left:2px;margin-right:2px;margin-top:4px;width:45px}footer .footerLeft .bluefont{color:#a5dae5;width:300px;font-size:0.9em;line-height:15px;padding-bottom:50px}footer .footerRight{background-color:#38a8c1;padding-top:50px}footer .footerRight .paddingBottom{padding-bottom:100px}footer .footerRight a{padding-top:10px;padding-bottom:10px;text-decoration:none;color:white;transition:color 0.5s ease-out}footer .footerRight a:hover{color:#a5dae5}@media only screen and (max-width: 767px){.footerLeft .noShowMobeil{display:none}.footerLeft .footerSocialLink{display:flex;flex-wrap:wrap;justify-content:center;align-items:center}.footerRight{display:none}}
+footer {
+  background-color: #3fbcd6; }
+  footer .footerLeft {
+    padding-left: 20px;
+    padding-bottom: 50px; }
+    footer .footerLeft .logoIcon {
+      margin-top: 20px; }
+    footer .footerLeft .whitefont {
+      color: white;
+      padding-bottom: 10px; }
+    footer .footerLeft .information p {
+      float: left;
+      padding-right: 20px; }
+    footer .footerLeft .footerSocialLink {
+      clear: both;
+      padding-top: 10px; }
+      footer .footerLeft .footerSocialLink .footerSocialLinkIcon {
+        float: left;
+        display: flex;
+        justify-content: center;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 4px;
+        width: 45px; }
+    footer .footerLeft .bluefont {
+      color: #a5dae5;
+      width: 300px;
+      font-size: 0.9em;
+      line-height: 15px;
+      padding-bottom: 50px; }
+  footer .footerRight {
+    background-color: #38a8c1;
+    padding-top: 50px; }
+    footer .footerRight .paddingBottom {
+      padding-bottom: 100px; }
+    footer .footerRight a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      color: white;
+      transition: color 0.5s ease-out; }
+    footer .footerRight a:hover {
+      color: #a5dae5; }
+
+@media only screen and (max-width: 767px) {
+  .footerLeft .noShowMobeil {
+    display: none; }
+  .footerLeft .footerSocialLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+
+  .footerRight {
+    display: none; } }
+
+/*# sourceMappingURL=footer.css.map */

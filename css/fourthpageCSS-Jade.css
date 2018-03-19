@@ -6,38 +6,6 @@ nav {
   width: 100%;
   border-bottom: 1px solid #cccccc; }
 
-/*---------- TOPSCROLL BUTTON----------*/
-
-.topscroll {
-  width: 100%;
-  background: #333;
-  margin: 0 auto;
-  color: #fff;
-  position: relative;
-}
-
-#topscrollBtn {
-  width: 100%;  
-  color: #fff;
-  background: #333;
-  padding: 10px;
-  border: none;
-  outline-style: none;
-
-}
-
-#scrollup:before {
-  position: absolute;
-  top: 7px;
-  left: 50%;
-  height: 2px;
-  width: 10px;
-}
-
-
-
-
-
 /*---------- LAYOUT----------*/
 .page-container {
   height: 100vh; }
