@@ -5,12 +5,13 @@ nav {
 	background-color: white;
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 }
 
 /*---------- LAYOUT----------*/
 
 .page-container {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 img.large-image {
@@ -28,7 +29,7 @@ img.large-image {
 	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
-/*---------- DETAILS ----------*/
+/*---------- PROJECT DETAILS ----------*/
 
 h3.project-name {
 	padding: 10px;
@@ -54,6 +55,84 @@ span.pagination {
 	right: 40px;
 }
 
+/*-- Jade's code :) --*
+
+/*---------- LAYOUT----------*/
+
+.page-container {
+	height: 100vh;
+}
+
+.project-titlebox {
+	padding: 10px 20px;
+	border-bottom: 1px solid #cccccc;
+
+	h3 {
+		font-size: 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		color: #00BBD2;		
+	}
+
+	p {
+		padding: 5px 0;
+	}
+}
+
+.project-basicdescription {
+	// padding-top: 60px;
+	font: 16px/1.5 'Open Sans', sans-serif;	
+	border-bottom: 1px solid #cccccc;	
+
+	p {
+		padding: 20px;
+	}
+}
+
+.project-comments {
+	border-bottom: 1px solid #cccccc;
+
+	.commenter {	
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 20px;
+
+		.commenter-boxleft {
+			width: 20%;
+
+			img {
+				float: right;
+				padding-right: 10%;
+			}
+		}
+
+		.commenter-boxright {
+			width: 80%;			
+
+			h4 {
+				float: left;
+				//color: #F05373;
+				// font-weight: 600;
+				// font-size: 16px;
+			}
+
+			h5 {
+				float: left;
+				padding-left: 5px;
+				padding-top: 3px;
+				font-size: 12px;
+			}
+
+			p {
+				clear: both;
+				font: 16px/1.5 'Open Sans', sans-serif;
+				padding-top: 5px;
+			}
+		}
+	}
+}
+
 /*---------- MEDIA QUERIES ----------*/
 
 /* iPad Vertical*/
@@ -69,6 +148,13 @@ span.pagination {
 	span.pagination {
 	bottom: 50px;
 	right: 90px;
+	}
+
+	.project-basicdescription, .project-comments {
+		width: 75%;
+		margin: auto;
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
 	}
 }
 
@@ -86,5 +172,12 @@ span.pagination {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	}
+
+	.project-basicdescription, .project-comments {
+		width: 75%;
+		margin: auto;
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
 	}
 }

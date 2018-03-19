@@ -55,8 +55,23 @@ li.white {
 	color: white;
 }
 
+h1.lightblue,
+h2.lightblue,
+h3.lightblue,
+h4.lightblue,
+p.lightblue,
+span.lightblue,
+li.lightblue {
+	color: $lightblue;
+}
+
+h4.pink {
+	color: $pink
+}
+
 p.bold,
-span.bold {
+span.bold,
+h4.bold {
 	font-weight: 600;
 }
 
