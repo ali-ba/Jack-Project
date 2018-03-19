@@ -1,10 +1,4 @@
-/*body{
-    font-family:Lato;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family:Catamaran;
-    font-weight:800!important;
-}*/
+
 
 .btn-xl{
     text-transform:uppercase;
@@ -39,7 +33,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight:700;
     letter-spacing:.1rem;
     color:#000;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li a{
@@ -77,9 +71,10 @@ li a{
 .names .name{
     width: 100%;
     text-align: center;
-    font-family: 'Rammetto One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     font-size: 55px;
-
+    line-height: 1.75;
 }
 
 .nameLink{
