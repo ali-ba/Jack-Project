@@ -50,7 +50,7 @@
 
 .menu-button-text{
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-toggler{
@@ -67,7 +67,7 @@
   top:38px;
   transform: translateX(-50%);
   font-size:1.3rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .names-desktop{

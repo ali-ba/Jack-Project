@@ -85,7 +85,7 @@ li a{
 .nameLink:hover{
     color: #00a8bc ;
     text-decoration: none;
-    font-size: 75px;
+    font-size: 55px;
 }
 
 .opacity {
@@ -137,3 +137,9 @@ li a{
     width: 100%;
     border-radius: 0;
     }
+
+
+.socialPic{
+    color: white;
+    font-size:2.5em;
+}  
