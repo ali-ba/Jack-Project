@@ -21,7 +21,7 @@ body{
 .grid figure {
 	position: relative;
 	overflow: hidden;
-	height: auto;
+	height: 100%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
