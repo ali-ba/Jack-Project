@@ -3,11 +3,11 @@
  /*---------- TOPSCROLL BUTTON----------*/
  
 .topscroll {
-   width: 100%;
+	height:70px;
    background: #333;
-   margin: 0 auto;
+ 
    color: #fff;
-   position: relative;
+   
 }
  
 #topscrollBtn {
@@ -20,13 +20,7 @@
  
 }
  
- #scrollup:before {
-   position: absolute;
-   top: 7px;
-   left: 50%;
-   height: 2px;
-   width: 10px;
-}
+
 
 /*---------- LAYOUT----------*/
 

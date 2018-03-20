@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="css/hoveranimation.css">
     <link rel="stylesheet" type="text/css" href="css/landing-page-connor.css">
     <link rel="stylesheet" type="text/css" href="css/fourthpageCSS-Jade.css"> 
+    <link rel="stylesheet" type="text/css" href="css/scrollAnimation.css"> 
 
 
 
@@ -73,8 +74,7 @@
     </nav>
 
 
-  <section class="landing-section">
-
+ <section class="landing-section" id="landing-section">
     <div class="videoBackground">
       <div class="videoForeground">
         <iframe src="" frameborder="0" allowfullscreen id="videoPlayer1" class=""></iframe>
@@ -159,12 +159,13 @@
   
   </div>  
 
-      <!-- Scroll to Top button -->
-
-      <div class="topscroll">
-        <i id="scrollup" class="fas fa-sort-up"></i>
-        <button id="topscrollBtn" title="Go to top">Back to top</button>
-      </div>  
+     <!-- Scroll to Top button -->
+     <a class="gototop" href="#landing-section">
+	    <div href=".landing-section" class="topscroll">
+	        <i id="scrollup" class="upArrow fas fa-sort-up"></i>
+	        <p>SCROLL UP</p>
+	    </div>  
+  	 </a>
 
 
       <!-- Footer here -->
@@ -210,6 +211,7 @@ web UI/UX, motion and graphic design, branding and content management.</p>
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/js/scrollAnimation.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/js/script.js"></script>
     <script src="vendor/js/api.js"></script>

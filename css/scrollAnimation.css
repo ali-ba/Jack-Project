@@ -1,0 +1,43 @@
+
+.topscroll p{
+	position: absolute;
+    left: 50%;   
+    margin-left:-35px; 
+	padding-bottom:20px;
+	padding-top:30px;
+	color:#f6f6f6;
+	
+}
+
+.topscroll{
+	box-shadow: 9px -6px 13px 0px #9c9c9c;
+	color:#f6f6f6;
+	position:relative;
+	transition: color ease 0.7s,box-shadow ease 0.7s;
+
+}
+.topscroll:hover{
+	box-shadow: 0px 0px 0px 0px #9c9c9c;
+	color:#00a8bd;
+}
+.topscroll:hover #scrollup{
+	top:-25px;
+	
+}
+
+
+#scrollup{
+	margin:0 auto;
+	position: absolute;
+    left: 50%;   
+    margin-left:-25px; 
+  	top:-15px;
+    font-size:6em;   
+    transition: top ease-out 0.8s;
+   
+}
+
+
+a:hover{
+	text-decoration:none;
+}
