@@ -51,6 +51,9 @@
 .menu-button-text{
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+
 }
 
 .navbar-toggler{
@@ -58,6 +61,11 @@
   position: fixed;
   right:20px;
   top:30px;
+  padding: .25rem .25rem;
+}
+
+.navbar-custom {
+  padding: 0.5rem 0.75rem;
 }
 
 .mobile-header{
@@ -88,6 +96,10 @@
 .name a{
   width:100%;
   text-align: center;
+}
+
+img.logo {
+  width: 45px;
 }
 
 

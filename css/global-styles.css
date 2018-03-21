@@ -61,7 +61,7 @@ p.small {
   font-size: 12px; }
 
 a.activeLink {
-  color: #00BBD2 !important; }
+  color: #00BBD2; }
 
 /*---------- AVATAR/PROFILE PICTURE ----------*/
 img.avatar,

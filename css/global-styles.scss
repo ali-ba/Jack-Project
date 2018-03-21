@@ -9,9 +9,10 @@ $lightblue: #00BBD2;
 $greyblue: #7F9CB7;
 $pink: #F05373;
 $red: #BF012C;
+$whiteblue: #E3EDF6;
 
 /*These colours haven't been used in UX Pin but are in the colour palette*/
-$whiteblue: #E3EDF6;
+
 $grey: #494949;
 $darkblue: #00A8BC;
 
@@ -85,7 +86,7 @@ p.small {
 }
 
 a.activeLink {
-	color: $lightblue !important;
+	color: $lightblue;
 }
 
 /*---------- AVATAR/PROFILE PICTURE ----------*/

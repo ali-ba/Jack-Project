@@ -54,7 +54,7 @@
   .numberListIphone .back {
     border-left: 0.5px lightgrey solid; }
   .numberListIphone .firstone, .numberListIphone .middle, .numberListIphone .lastone {
-    width: 386px;
+    width: 300px;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -83,59 +83,43 @@
 
   .designerInformation .backcolor .block1 .designerPhoto {
     justify-content: flex-end;
-    margin-top:0px; }
+    margin-top: 0px; }
 
   .designerInformation .backcolor .block1 .right .social {
     justify-content: space-between;
-    margin-left: 10px; 
-    width:150px;
+    margin-left: 10px;
+    width: 150px; }
 
-  }
-  .backcolor .block1 .nameAndDescription .description{
-    width:138%;
-  }
-}
-  @media only screen and (min-width: 1024px) {
-    .backcolor .block1{
+  .backcolor .block1 .nameAndDescription .description {
+    width: 138%; } }
+@media only screen and (min-width: 1024px) {
+  .backcolor .block1 {
     margin-left: 0px;
-    margin-right:0px;
-}
-  
+    margin-right: 0px; }
 
-    .numberListIphone .firstone .firstOneGap {
+  .numberListIphone .firstone .firstOneGap {
     margin-right: 7px; }
 
   .numberListIphone .lastone {
-    align-items: center; } 
-  .backcolor .block1 .nameAndDescription .description{
-    width:120%;
-  }
+    align-items: center; }
 
-}
-
-
+  .backcolor .block1 .nameAndDescription .description {
+    width: 120%; } }
 @media only screen and (max-width: 768px) {
-  .backcolor .block1{
+  .backcolor .block1 {
     margin-left: 10px;
-    margin-right: 10px;
-}
-  .white{
-    text-align:left;
-  }
-  .backcolor .social{
-    width:280px;
-    justify-content:space-around;
-    margin:0 auto;
-    
-  }
-  .backcolor .block1 .designerPhoto{
-    margin-top:30px;
-    padding-bottom: 0px;
-  }
+    margin-right: 10px; }
 
-  }
-@media (min-width: 1200px){
-.container {
-    max-width: 1231px;
-}
+  .white {
+    text-align: left; }
+
+  .backcolor .social {
+    width: 280px;
+    justify-content: space-around;
+    margin: 0 auto; }
+
+  .backcolor .block1 .designerPhoto {
+    margin-top: 30px;
+    padding-bottom: 0px; } }
+
 /*# sourceMappingURL=designerStyle.css.map */
