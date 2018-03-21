@@ -54,7 +54,7 @@
   .numberListIphone .back {
     border-left: 0.5px lightgrey solid; }
   .numberListIphone .firstone, .numberListIphone .middle, .numberListIphone .lastone {
-    width: 200px;
+    width: 386px;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -82,19 +82,60 @@
     text-align: left; }
 
   .designerInformation .backcolor .block1 .designerPhoto {
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    margin-top:0px; }
 
   .designerInformation .backcolor .block1 .right .social {
-    justify-content: flex-start;
-    margin-left: 10px; }
+    justify-content: space-between;
+    margin-left: 10px; 
+    width:150px;
 
-  .numberListIphone .firstone {
-    align-items: flex-end;
-    padding-right: 60px; }
+  }
+  .backcolor .block1 .nameAndDescription .description{
+    width:138%;
+  }
+}
+  @media only screen and (min-width: 1024px) {
+    .backcolor .block1{
+    margin-left: 0px;
+    margin-right:0px;
+}
+  
+
     .numberListIphone .firstone .firstOneGap {
-      margin-right: 7px; }
+    margin-right: 7px; }
 
   .numberListIphone .lastone {
-    align-items: center; } }
+    align-items: center; } 
+  .backcolor .block1 .nameAndDescription .description{
+    width:120%;
+  }
 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .backcolor .block1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  .white{
+    text-align:left;
+  }
+  .backcolor .social{
+    width:280px;
+    justify-content:space-around;
+    margin:0 auto;
+    
+  }
+  .backcolor .block1 .designerPhoto{
+    margin-top:30px;
+    padding-bottom: 0px;
+  }
+
+  }
+@media (min-width: 1200px){
+.container {
+    max-width: 1231px;
+}
 /*# sourceMappingURL=designerStyle.css.map */
