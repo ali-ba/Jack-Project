@@ -56,6 +56,7 @@
 
 #navbarResponsive a.nav-link.activeLink {
     color: #00BBD2;
+    font-weight: 600;
 }
 
 nav .container {
@@ -188,6 +189,7 @@ li a{
     font-size: 14px;
     font-weight: 400;
     }
+
 }
 
 @media only screen and (min-width: 1024px) {

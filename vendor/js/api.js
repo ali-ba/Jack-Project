@@ -32,13 +32,13 @@ $(function(){
 
 
 				var firstName = res.user.first_name;
-				$('<h1>' + firstName +'</h1>').appendTo('.designerName');	
+				$('<h2>' + firstName +'</h2>').appendTo('.designerName');	
 
 				var about = res.user.sections["About Me"];
 				$('<p class"description">' + about +'</p>').appendTo('.description');			
 		
 				var photo = res.user.images[100];
-				$('<img  src="' + photo + '">').appendTo('.designerPhoto');
+				$('<img src="' + photo + '">').appendTo('.designerPhoto');
 
 				var views = res.user.stats.views;
 				$('<p>' + views +'</p>').prependTo('.first');

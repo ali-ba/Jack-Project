@@ -12,12 +12,16 @@
       align-items: center;
       padding-top: 20px;
       padding-bottom: 20px; }
+      .backcolor .block1 .designerPhoto img {
+        border-radius: 50%; }
     .backcolor .block1 .nameAndDescription {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0;
+      margin-top: 10px;
+      padding: 0;
       text-align: center;
       line-height: normal; }
       .backcolor .block1 .nameAndDescription .description {
@@ -48,9 +52,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: #eaeaea 0.3px solid; }
+  border-bottom: #eaeaea 0.3px solid;
+  box-shadow: 0 -1px 5px #ccc; }
   .numberListIphone .back {
     border-left: 0.5px lightgrey solid; }
   .numberListIphone .firstone, .numberListIphone .middle, .numberListIphone .lastone {
@@ -75,6 +78,9 @@
   margin-left: 0; }
 
 @media only screen and (min-width: 768px) {
+  .designerPhoto img {
+    height: 125px; }
+
   .designerInformation .backcolor .block1 .nameAndDescription {
     align-items: flex-start; }
 
@@ -84,6 +90,9 @@
   .designerInformation .backcolor .block1 .designerPhoto {
     justify-content: flex-end;
     margin-top: 0px; }
+
+  .designerInformation .backcolor .block1 .right {
+    padding-top: 10px; }
 
   .designerInformation .backcolor .block1 .right .social {
     justify-content: space-between;
@@ -119,7 +128,7 @@
     margin: 0 auto; }
 
   .backcolor .block1 .designerPhoto {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-bottom: 0px; } }
 
 /*# sourceMappingURL=designerStyle.css.map */

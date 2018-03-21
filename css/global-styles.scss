@@ -39,11 +39,15 @@ a.h1 {
 
 h2 {
 	font-weight: 800;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h3 {
 	font-size: 22px;
+}
+
+p {
+	font-size: 16px
 }
 
 h1.white,
@@ -94,4 +98,19 @@ a.activeLink {
 img.avatar,
 .avatar {
 	border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+
+	h2 {
+	font-size: 32px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+.names .name{   
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 60px;
+    }    
 }

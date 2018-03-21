@@ -16,6 +16,10 @@
 			align-items:center;
 			padding-top: 20px;
 			padding-bottom: 20px;
+
+			img {
+				border-radius: 50%;
+			}
 		}
 		.nameAndDescription{
 			display: flex;
@@ -23,6 +27,8 @@
 			justify-content:center;
 			align-items:center;
 			margin-left:0;
+			margin-top: 10px;
+			padding: 0;
 
 			text-align: center;
 			line-height: normal;
@@ -37,7 +43,7 @@
 			padding-bottom: 20px;
 			}
 		}
-}
+	}
 
 	.social{
 
@@ -75,10 +81,9 @@
 		display:flex;
 		justify-content:center;
 		align-items:center;
-		padding-top: 10px;
-		padding-bottom: 10px;
 		// background-color: white;
 		border-bottom: #eaeaea 0.3px solid;
+		box-shadow: 0 -1px 5px #ccc;
 		
 		.back{
 			border-left: 0.5px lightgrey solid;
@@ -100,9 +105,6 @@
 
 .portfolio{
 	
-
-	
-
 	.portfolioTitle{
 		font-size: 2em;
 		text-align: center;
@@ -110,12 +112,6 @@
 		margin-bottom: 30px;
 	}
 }
-
-
-
-
-
-
 
 .row{
 	margin-right:0;
@@ -147,25 +143,31 @@
 
 @media only screen 
 and (min-width : 768px)  {
+
+	.designerPhoto img {		
+	height: 125px;	
+			}
 	.designerInformation .backcolor .block1 .nameAndDescription {
     align-items: flex-start; }
 
-  .designerInformation .backcolor .block1 .nameAndDescription {
+  	.designerInformation .backcolor .block1 .nameAndDescription {
     text-align: left; }
 
-  .designerInformation .backcolor .block1 .designerPhoto {
+  	.designerInformation .backcolor .block1 .designerPhoto {
     justify-content: flex-end;
-    margin-top:0px; }
+   	margin-top:0px; }
 
-  .designerInformation .backcolor .block1 .right .social {
+    .designerInformation .backcolor .block1 .right {
+    padding-top: 10px; }
+
+  	.designerInformation .backcolor .block1 .right .social {
     justify-content: space-between;
     margin-left: 10px; 
-    width:150px;
+    width:150px; }
 
-  }
-  .backcolor .block1 .nameAndDescription .description{
+  	.backcolor .block1 .nameAndDescription .description{
     width:138%;
-  }
+  	}
 
 }
 @media only screen and (min-width: 1024px) {
@@ -199,7 +201,7 @@ and (min-width : 768px)  {
 	    margin:0 auto;
   }
   	.backcolor .block1 .designerPhoto{
-	    margin-top:30px;
+	    margin-top:20px;
 	    padding-bottom: 0px;
   }
 }
