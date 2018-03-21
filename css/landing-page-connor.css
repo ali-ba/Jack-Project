@@ -129,7 +129,7 @@
  .ludmila{
   display: flex;
   align-items: center;
-  background-image: url('../images/project1.png');
+  background: linear-gradient(rgba(0, 168, 188, 0.5), rgba(0, 168, 188, 0.5)), url('../images/project1.png');
   background-size: cover;
   background-position: center;
  }
@@ -137,32 +137,28 @@
  .ernest{
   display: flex;
   align-items: center;
-  background-image: url('../images/project2.png');
-  background-size: cover;
+  background: linear-gradient(rgba(0, 168, 188, 0.5), rgba(0, 168, 188, 0.5)), url('../images/project2.png');  background-size: cover;
   background-position: center;
  }
 
  .arthur{
   display: flex;
   align-items: center;
-  background-image: url('../images/project3.jpg');
-  background-size: cover;
+  background: linear-gradient(rgba(0, 168, 188, 0.5), rgba(0, 168, 188, 0.5)), url('../images/project3.jpg');  background-size: cover;
   background-position: center;
  }
 
  .denys{
   display: flex;
   align-items: center;
-  background-image: url('../images/project4.jpg');
-  background-size: cover;
+  background: linear-gradient(rgba(0, 168, 188, 0.5), rgba(0, 168, 188, 0.5)), url('../images/project4.jpg');  background-size: cover;
   background-position: center;
  }
 
  .vlad{
   display: flex;
   align-items: center;
-  background-image: url('../images/project5.png');
-  background-size: cover;
+  background: linear-gradient(rgba(0, 168, 188, 0.5), rgba(0, 168, 188, 0.5)), url('../images/project5.png');  background-size: cover;
   background-position: center;
  }
 

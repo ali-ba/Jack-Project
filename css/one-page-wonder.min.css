@@ -142,4 +142,11 @@ li a{
 .socialPic{
     color: white;
     font-size:2.5em;
-}  
+} 
+
+@media only screen and (min-width: 768px) {
+
+.portfolioPics{
+    padding: 0 80px 80px 80px;
+} 
+}
