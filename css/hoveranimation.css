@@ -116,7 +116,14 @@ figure.effect-goliath .view{
 figure.effect-goliath .appreciations{
 	position: absolute;
 	bottom: 0;
-	right: 70px;
+	right: 100px;
+	padding: 30px;
+}
+
+figure.effect-goliath .comments{
+	position: absolute;
+	bottom: 0;
+	right: 200px;
 	padding: 30px;
 }
 
@@ -131,7 +138,9 @@ figure.effect-goliath p,
 	transform: translate3d(0,50px,0);
 }
 
-.view,.appreciations{
+.view,
+.appreciations,
+.comments{
 
 	display:flex;
 	align-items:center;

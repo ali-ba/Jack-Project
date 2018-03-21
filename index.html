@@ -85,19 +85,13 @@
       </div>
     </div>
 
-<!--   <div class="container">
-    <div class="row">
-      <div class="col"> -->
         <ul class="names names-desktop container-fluid">
-          <li class="row name ludmila"><a class="nameLink" href="ludmila.html">LUDMILA</a></li>
-          <li class="row name ernest"><a class="nameLink" href="#">ERNEST</a></li>
-          <li class="row name arthur"><a class="nameLink" href="#">ARTHUR</a></li>
-          <li class="row name denys"><a class="nameLink" href="#">DENYS</a></li>
-          <li class="row name vlad"><a class="nameLink" href="#">VLAD</a></li>
+          <li class="row name ludmila" data-index="0"><a class="nameLink" href="#">LUDMILA</a></li>
+          <li class="row name ernest" data-index="1"><a class="nameLink" href="#">ERNEST</a></li>
+          <li class="row name arthur" data-index="2"><a class="nameLink" href="#">ARTHUR</a></li>
+          <li class="row name denys" data-index="3"><a class="nameLink" href="#">DENYS</a></li>
+          <li class="row name vlad" data-index="4"><a class="nameLink" href="#">VLAD</a></li>
         </ul>
-  <!--     </div>
-    </div>
-  </div> -->
 
   </section>
 
@@ -106,11 +100,10 @@
   <div class="designerInformation" id="sec1">
     <div class="backcolor pinkBG">
     <div class="backcolor">
-      
 
       <div class="block1 row">
         <div class="col-sm-12 col-md-3 designerPhoto">
-          
+          <img src="" alt="Designer Profile Photo" class="designer-photo avatar">
         </div>
         <div class="right col-sm-12 col-md-8  ">
           <div class="col-sm-12 col-md-9 nameAndDescription">
@@ -135,16 +128,21 @@
     <ul class="numberListIphone whiteBG">
       <li class="first firstone">
         <p class="light small">views</p>
+        <p class="view-count"></p>
       </li>
       <li class="second back middle ">
         <p class="light small">appreciations</p>
+        <p class="appreciations-count"></p>
       </li>
       <li class="third back middle">
         <p class="FollowersNumber">
         <p class="light small">followers</p>
+        <p class="followers-count"></p>
       </li>
       <li class="forth back lastone">
         <p class="light small">following</p>
+        <p class="following-count"></p>
+      </li>
     
   </div>
   </div>
@@ -160,6 +158,26 @@
     </div>
   
   </div>  
+
+  <!-- Description and comments -->
+
+  <div class="page-container">
+    <div class="project-basicdescription">
+      <div class="project-titlebox">
+        <h3>Basic Description</h3>
+      </div>
+      <div class="project-descriptionbox">
+        <p class="project-description">
+        </p>
+      </div>
+    </div>
+    
+    <div class="project-comments">
+      <div class="project-titlebox" id="comments-box">
+        <h3>Comments</h3>
+      </div>
+    </div>      
+  </div>
 
      <!-- Scroll to Top button -->
      <a class="gototop" href="#landing-section">
@@ -216,8 +234,9 @@ web UI/UX, motion and graphic design, branding and content management.</p>
     <script src="vendor/js/scrollAnimation.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/js/script.js"></script>
-    <script src="vendor/js/api.js"></script>
+    <script src="vendor/js/api1.js"></script>
     <script src="vendor/js/landing-page.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
   
 
 <script>
