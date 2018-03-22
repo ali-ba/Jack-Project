@@ -10,14 +10,14 @@ var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 
 
     function checkWidth(){
 
-     console.log(width);
+     // console.log(width);
      if(width<990){
        if(namesList.classList.contains('names-desktop')){
         namesList.classList.remove('names-desktop');
         namesList.classList.add('names-mobile');
       }
     } else if(width>990){
-      console.log(namesList.classList.contains('names-desktop'));
+      // console.log(namesList.classList.contains('names-desktop'));
       if(namesList.classList.contains('names-desktop')===false){
         namesList.classList.add('names-desktop');
         namesList.classList.remove('names-mobile')

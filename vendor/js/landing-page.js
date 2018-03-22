@@ -34,6 +34,8 @@ vlad.addEventListener("mouseenter", setVlad);
                     //YOUTUBE GET REQUEST 
 
 $(document).ready(function(){
+
+
   $.get(
       "https://www.googleapis.com/youtube/v3/channels",{
         part:'contentDetails', 

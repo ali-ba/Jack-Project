@@ -105,8 +105,9 @@ li a{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 1.75;
+    font-size: 6vh;
+    display: block;
+    line-height: 3.5;
     text-shadow: -1px 1px 1px #000;
     
 }
@@ -119,7 +120,7 @@ li a{
 .nameLink:hover{
     color: #00a8bc ;
     text-decoration: none;
-    font-size: 60px;
+    
 }
 
 .opacity {
@@ -195,6 +196,6 @@ li a{
 @media only screen and (min-width: 1024px) {
 .names .name{   
     text-shadow: 1px 1px 1px #fff;
-    font-size: 60px;
-    }    
+    line-height: 1.75;
+        }    
 }

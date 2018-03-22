@@ -13,7 +13,7 @@ projectIds=[];
 $(function(){
 	
 	// Unique API key - get this from behance.net/dev
-	var key = 'qke5wUmRwURSJcRVUBYrmStjHuPrnMdw';	
+	var key = 'ppv2zVzSCRaTklTo1GlhI2ni2UMaN8PX';	
 	//q5FBbqs6B8kQsFtd5WWoXwAQ7i5jUKnw
 	//TqCSAWqvHPg67ZC6fQHBi2TlcDYFSdwS
 	//sPm2Vv6N1A0txvwOJ1b82xKInsZr7RTx
@@ -49,10 +49,23 @@ var artistLudmila = document.getElementsByClassName('ludmila')[0],
 	artistArthur.addEventListener("click", getUser);
 	artistDenys.addEventListener("click", getUser);
 	artistVlad.addEventListener("click", getUser);
+	artistLudmila.addEventListener("click", scrollDown);
+	artistErnest.addEventListener("click", scrollDown);
+	artistArthur.addEventListener("click", scrollDown);
+	artistDenys.addEventListener("click", scrollDown);
+	artistVlad.addEventListener("click", scrollDown);
 
 // ================================== HOME PAGE TEMPLATE ==================================================
 
+function scrollDown() {
+    $('html,body').animate({
+        scrollTop: $(".designerInformation").offset().top -70},
+        'slow');
+	}
+
+
 function getUser(){
+
 	//Check if function was called by clicking on name or on page load by checking if 'this' points to window object or HTML object that was clicked.
 	if(this !== window){
 		index = this.dataset.index;	
@@ -71,7 +84,7 @@ function getUser(){
 
 			// when the ajax request is complete do all of these things
 			success: function(res) {
-				// console.log(res);
+				console.log(res);
 				var firstName = res.user.first_name;
 
 				$('.designerName').text(firstName);	
@@ -136,6 +149,14 @@ function getProjects(){
 			success: function(res) {
 
 				var projects = res.projects;
+				console.log(projects);
+
+				//Remove tall image from Arthurs gallery.
+				if(index == 2){
+					console.log(projects[5]);
+					projects.splice(4, 2);
+				}
+
 				var projectsContainer = document.getElementsByClassName('portfolioPics')[0];
 				// console.log(projectsContainer.childNodes.length);
 
@@ -151,6 +172,7 @@ function getProjects(){
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
 					projectIndex++;
+
 					$('<div class="col-12  col-md-6 col-xl-4 grid projectTrigger" data-index="' + projectIndex + '">'+
 					'<figure class="effect-goliath">'+
 					'<img class="zoom" src="' + project.covers.original +'">'+
@@ -193,29 +215,89 @@ function getProjects(){
 						//JENS START
 //========================================================================
 
-
 				function showModal(){
-					// console.log(projectTriggers[i]);
-					var index = this.dataset.index;
-					console.log(projects[index]);
-					$( '<div class="modal-container" data-id="' + projects[index].id + '">' +
-					'<div class-"modal-bg">' +
-						'<div style="font-size:2em; color: white"><i class="fas fa-arrow-left"></i></div>"' +
+					//each time the function runs detach any previous projects so that the modal is empty
+					$('.modal-container').detach();
+
+					var indexP = this.dataset.index;
+					$( '<div class="modal-container" data-id="' + projects[indexP].id + '">' +
+						'<div class="modal-bg">' +
+						'<div style="font-size:2em;"><i class="fas fa-arrow-left"></i></div>"' +
 						'<div class="project-image">' + 
-							'<img class="large-image" src="' + project.covers.original + '">' + '</div>' + //image here
-							'<div class="gradient">' +
-								'<div class="project-info">' +
-									'<h3 class="project-name white">' + project.name + '</h3>' + //name here - not showing atm
-										'<div class="project-creator">' +
-											'<span class="name-and-avatar white bold"></span>' +
-										'</div>' +
-								'</div>' +
-							'</div>' +
-						//comments and description html here
+						'<img class="large-image" src="' + projects[indexP].covers.original + '">' + 
+						// '</div>' + 
+						// '<div class="gradient">' +
+						'<div class="project-info">' +
+						//'<h3 class="project-name white">' + projects[index].name + '</h3>' + //name here - showing but some styling issues from hardcoding this has caused things to move around
+						'<div class="project-creator">' +
+						'<span class="name-and-avatar bold"></span>' +
 						'</div>' +
+					    '<div class="project-basicdescription">' +
+				        '<div class="project-titlebox">' +
+				        '<h3>Basic Description</h3>' +
+				        '</div>' + 
+					    '<div class="project-descriptionbox">' +
+					    '<p class="project-description"></p>' +
+				        '</div>' +
+					    '</div>' +
+					    '<div class="project-comments">' +
+				        '<div class="project-titlebox" id="comments-box">' +  
+				        '<h3>Comments</h3>' +
+				        '</div>' +
+    					'</div> '+
+						'</div>' +
+						// '</div>' +
+						// '</div>' +
 					'</div>').prependTo('.portfolio');
+
+					var projectTitle = projects[indexP].name;
+					$('<h3 class="project-name">' + projectTitle + '</h3>').prependTo('.project-info'); //to stop if from going behind the gradient
+
+					//show the modal box after all the content has been loaded so that the modal never shows up empty
+					$('.modal-container').show();
+					//detachs the project info each time you click on the arrow
+					$('.fa-arrow-left').click(function(){
+						$('.modal-container').detach();
+					});
+
+			//Another AJAX - TO DISPLAY THE USERS AVATAR AND NAME
+
+			var urlUsers2 = 'https://api.behance.net/v2/users/' + behanceUser[index] + '?client_id=' + key;
+
+			// AJAX request
+			$.ajax({
+
+				url: urlUsers2,
+				dataType: 'jsonp',
+
+				// when the ajax request is complete do all of these things
+				success: function(res2) {
+					console.log(res2);
+					var firstName = res2.user.first_name;
+					$('<span class="bold">' + firstName + '</span>').appendTo('span.name-and-avatar'); //for modal	
+
+			
+					var photo = res2.user.images[100];
+					$('<img class="avatar profile-avatar" src="' + photo + '">').prependTo('span.name-and-avatar'); //for modal
+
+
+			},
+				// if the ajax request fails do these things as a fallback
+				error: function(err) {
+					console.log('Behance Error: ' + err);
 				}
 
+			}); //END AJAX 2
+
+		} // END showModal
+
+				var projectTriggers = document.getElementsByClassName('projectTrigger');
+
+				for(i=0; i<projectTriggers.length; i++){
+					//projectTriggers[i].addEventListener("click", getComments); //uncomment here
+					//projectTriggers[i].addEventListener("click", getDescription); //uncomment here
+					projectTriggers[i].addEventListener("click", showModal);
+				}
 
 //========================================================================
 						//JENS END
@@ -251,7 +333,7 @@ function getComments(){
 
 					// when the ajax request is complete do all of these things
 					success: function(res) {
-						console.log(res);
+						// console.log(res);
 
 						var comments = res.comments;
 						//Reset comments array.
